@@ -15,7 +15,7 @@ print("\033[1;34m\n[++] Enter The path of the file ... \033[1;m")
 path=input()
 print("\033[1;34m\n[++] Enter The Address Ex. 127.0.0.1:8080 ... \033[1;m")
 add=input()
-php=os.system("php -t "+path+" -S "+add" ")
+php=os.system("php -t "+path+" -S "+add"")
 
 print(php)
 
