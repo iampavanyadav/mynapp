@@ -14,8 +14,8 @@ print(""" \033[1;36m
 
 print("\033[1;34m\n[++] Starting Mysqld ... \033[1;m")
 time.sleep(2)
-os.system("leafpad&")
-print("\033[1;34m\n[++] it lokks Like Mysql Service started ... \033[1;m")
+os.system("mysqld&")
+print("\033[1;34m\n[++] it looks Like Mysql Service started ... \033[1;m")
 print("\033[1;34m\n[++] Initializing Php ... \033[1;m")
 input()
 print("\033[1;34m\n[++] Enter The path of the file ... \033[1;m")
