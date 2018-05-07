@@ -38,5 +38,5 @@ print("\033[1;34m\n[++] Killing Process Php ... \033[1;m")
 time.sleep(1)
 os.system("pkill php*")
 
-print("\033[1;34m\n[++] Don ... \033[1;m")
+print("\033[1;34m\n[++] Done ... \033[1;m")
 
